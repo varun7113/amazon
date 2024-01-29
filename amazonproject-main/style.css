@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:black;  /*navbar background color*/
+    color: white; /*navbar text color*/
+    display: flex;  /*it helps all div to allin onenext to other in navbar*/
+    align-items: center; /*it helps to allin all the elements in navbar to be at center*/
+    justify-content: space-evenly;/*when we keep on adding content it keeps on miving to left*/
+} 
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{   /*this border is class name whenever it is goven in any tag it will work when we hover over particular element*/
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/**2nd box**/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem; /*increase this size of text*/
+    margin-left: 15px;  
+}
+
+.add-second{
+    font-size: 1rem; /*increase this size of text*/
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;       /*it helps all div to allin onenext to other in navbar*/
+    align-items: center; /*it helps to allin all the elements in navbar to be at center*/
+}
+
+/*box3*/
+.nav-search{
+    display: flex; /*it helps all div to allin onenext to other in navbar*/
+    justify-content: space-evenly; /*it gives all elements same space*/
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px; /*outside line for this nav-search*/
+
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;    /*to make curved edges*/
+    border-bottom-left-radius: 4px; /*to make curved edges*/
+    border: none;
+}
+.search-input{
+    width: 100%; /*it occupy all the area */ 
+    font: size 1rem;  /*increasees the size of text*/
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 123, 0);
+    border-top-right-radius: 4px;    /*to make curved edges*/
+    border-bottom-right-radius: 4px; /*to make curved edges*/
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/*box4*/
+span{
+    font-size: 0.7rem; /*increase this size of text*/
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700; /*it makes it more dark or bold for vibsiblity*/
+}
+
+/*box6*/
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem; /*increase this size of text*/
+    font-weight: 700; /*it makes it more dark or bold for vibsiblity*/
+}
+
+/** panel **/
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;  /* alin content one next ot other*/
+    color: white;  /* diply text color white */
+    align-items: center; /**it allign all the data at center ofpanel**/
+    justify-content: space-evenly;  /** it is used it allin horizontally and evenly so when ever we all any data it keeps on moving to left**/
+
+}
+.panel-ops p{
+    display: inline; 
+    margin-left: 15px; /*it gives some space btw all p tag or moves content littel left for each p tag*/
+}
+
+.panel-ops{
+    width: 70%; /*it occupy all the width */
+    font-size: o.85rem; /*increase this size of text*/
+}
+
+.panel-deals{
+    font-size: 0.9rem;  /*increase this size of text*/
+    font-weight: 700; /*it makes it more dark or bold for vibsiblity*/
+}
+
+/*heroscetion*/
+
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover; /*/it will act as cover in background*/
+    height: 350px;
+    display: flex; /* whatever the content we add should cm at center*/
+    justify-content: center; /*horizontally align center*/
+    align-items: flex-end; /* the items wich im adding should go to bottom*/
+}
+.hero-msg{
+    background-color: white;
+    color: black; /*text color*/
+    height: 40px;
+    display: flex;/*one next to other */
+    align-items: center; /** verticl align center in that line itself but at center**/
+    justify-content: center;/*horizontally align center*/
+    font-size: 0.85rem;
+    width: 80%; 
+    /* area it is occupying*/
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+/**c=shopsection*/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;/*whenever we want even space between content her it will align all the boxes with equal space*/
+    background-color: pink; /* this color will apply behind the boxes*/
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;/*this apply to box background color*/
+    padding: 20px 0px 15px;
+    margin-top: 5px; /*we made that box to not align or collide with upper content so we draged it down*/
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.box-content p{
+    color: #007185;
+}
+
+/** footer**/
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center; /*in that line itself but at center in verticle direction*/
+    align-items: center; /* it align that etxt in center of div*/
+    font-size: 1rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly; /* in that div it will align all that p tag one next to other evenly*/
+}
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    font-size: 0,7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+}
